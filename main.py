@@ -149,9 +149,9 @@ def wechatPush(title,sckey,success,fail,result):
     try:
         req = requests.post(scurl,data = data)
         if req.json()["errmsg"] == 'success':
-            print("Server酱推送服务成功")
+            print("打卡推送服务成功")
         else:
-            print("Server酱推送服务失败")
+            print("打卡推送服务失败")
     except:
         print("微信推送参数错误")
 
