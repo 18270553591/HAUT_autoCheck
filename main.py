@@ -139,7 +139,6 @@ def wechatPush(title,sckey,success,fail,result):
 ```
 {page}
 ```
-### 😀[收藏此项目](https://github.com/YooKing/HAUT_autoCheck)
 
         """
     data = {
