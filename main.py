@@ -1,6 +1,7 @@
 import time,json,requests,random,datetime
 from campus import CampusCard
 
+
 def main():
     #定义变量
     success,failure=[],[]
